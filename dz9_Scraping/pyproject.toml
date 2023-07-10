@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "dz9-scraping"
+version = "0.1.0"
+description = ""
+authors = ["Іван Лубик <126516121+ivanlubyk@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "dz9_scraping"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+scrapy = "^2.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
